@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+
+
+*{
+    margin: o;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("Maldives.webp");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.logo img{
+    width: 60px ;
+    padding-left: 10px;
+    padding-top: 10px;
+    float: left;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li .active a{
+    background-color: #fff;
+    color: #000;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid#fff;
+    padding: 5px 20px;
+    transition: 0.6s ease;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+
+}
+.title{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title h1{
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 70px;
+}
+.button{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.btn{
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    transition: 0.6s ease;
+}
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+}
